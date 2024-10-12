@@ -1,0 +1,44 @@
+.text
+  height: 100vh !important
+  background-color: #F3F5F5
+  position: relative
+  z-index: 2
+  display: flex
+  align-items: center
+  margin-bottom: 256px
+.animation
+.ticker
+  font-family: 'NEXT ART'
+  font-weight: 700
+  font-size: 128px
+  min-width: 148%
+  text-transform: uppercase
+  display: flex
+  white-space: nowrap
+  display: inline-block
+  text-transform: lowercase
+  -moz-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  -o-user-select: none
+  user-select: none
+  line-height: 153.6px
+
+  &-1
+    color: #E9ECF2
+  &-2
+    font-family: 'Lighthaus'
+    font-weight: 400
+    // -webkit-text-stroke: 1px $text
+  &::before
+    content: '/ we create future / we create future /'
+    position: absolute
+    left: -3060px
+  &::after
+    content: '/ we create future / we create future /'
+    position: absolute
+    right: -1524px
+textarea
+  resize: none
+  &.auto
+    overflow-y: hidden

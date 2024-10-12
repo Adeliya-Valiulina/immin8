@@ -1,0 +1,157 @@
+.slider
+  // padding-top: 262px
+  // height: 200vh
+  // overflow-y: none
+  position: relative
+  z-index: 2
+  height: 100vh !important
+  &-wrapper
+    display: flex
+    // align-items: center
+    justify-content: space-between
+    max-width: 1099px
+    margin-left: auto
+    max-height: 1900px
+    // height: 200vh
+    margin-top: 200px
+
+  &-scroll
+
+  &-text
+    margin-left: auto
+    width: 1099px
+  &-karaoke
+    display: flex
+    align-items: center
+    justify-content: space-between
+    font-size: 48px
+    font-weight: 400
+    line-height: 150%
+    text-align: left
+    top: 20px
+    height: 456px
+    position: relative
+    z-index: 2
+    width: 1099px
+    &::before
+      content: ''
+      position: absolute
+      top: 40%
+      left: -530px
+      background-color: #BFC3D2
+      height: 128px
+      width: 3px
+      border-radius: 8px
+    // margin-top: 250px
+
+  &-button
+    font-size: 16px
+    line-height: 100%
+    background-color: inherit
+    color: $text
+    // padding: 16px 32px 16px 50px
+    position: relative
+    height: 48px
+    display: inline-block
+    top: -8px
+    // width: 191px
+    border-radius: 44px
+    margin-right: 32px
+    padding: 16px 32px
+    z-index: 0
+    transition: .3s
+
+    // &::before
+    //   position: absolute
+    //   content: ''
+    //   top: 21px
+    //   left: 32px
+    //   width: 6px
+    //   height: 6px
+    //   background-color: $text
+    //   border-radius: 100%
+    //   transition: .3s
+    &:hover
+      background-color: $text
+      color: $button-text
+      
+    // &::after
+    //   position: absolute
+    //   content: "About IMMIN8"
+    //   top: 12px
+    //   left: 50px
+    //   width: 109px
+    //   height: 22px
+    //   color: #151E3F
+    //   border-radius: 100%
+  // &-karaoke
+  //   display: flex
+  //   flex-direction: column
+  &-stick
+    height: 128px
+    width: 3px
+    background-color: #BFC3D2
+    border-radius: 8px
+    position: absolute
+    top: 40%
+    left: -530px
+    // position: fixed
+    // top: 10px
+    // left: 10px
+    width: 3px
+    height: 10px
+    background-color: #151E3F
+    transition: height 0.2s ease
+
+.karaoke
+  &-text
+
+    // overflow-y: scroll
+
+    // color: #BFC3D2
+    // position: fixed
+    // top: 50%
+    // left: 50%
+    // width: 85%
+    // transform: translate(-50%, -50%)
+// .reveal-type
+//   display: inline-block
+//   position: fixed
+//   top: 20%
+
+.ml-16
+  margin-left: -16px
+  margin-right: -10px
+.mb24
+  margin-bottom: 24px
+
+.red
+  color: red
+.span
+  // opacity: 0.1
+.reveal-type
+  position: relative
+  z-index: 1
+  span
+    background: linear-gradient(to right, #BFC3D2 50%, #151E3F 50%) 0 0 / 200% 100%
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    box-decoration-break: slice
+    -webkit-box-decoration-break: slice
+.fixed
+  position: fixed
+  top: 270px
+  z-index: 1
+  // right: 128px
+  width: 1099px
+.relativ
+
+  position: relative !important
+  height: 100vh
+  margin-top: 93%
+  overflow-y: hidden
+
+#scroll
+  // overflow-y: scroll
+  height: 350vh
+  background-color: #F3F5F5
